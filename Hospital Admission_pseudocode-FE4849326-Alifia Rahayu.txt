@@ -1,0 +1,37 @@
+Nama : Alifia Rahayu
+ID Camp : FE4849326
+
+Judul : Hospital Admission
+
+START
+READ “Data diri”
+ada “data” with sudah isi
+kosong “data” with belum ada
+FOR Apakah "data" = "ada"?
+	IF “kosong” then 
+		Read and write “Isi Data” with
+		Nama with string
+		Umur with number
+		Alamat with text
+		RekamMedis with varchar
+		END IF
+END FOR
+PRINT nama
+PRINT Umur
+PRINT Alamat
+PRINT RekamMedis
+
+READ “Penjamin”
+STORE “Penjamin” with 
+1. NonBPJS
+2. BPJS
+IF Penjamin = "BPJS" then
+	READ “BPJS”
+	STORE “BPJS” with 
+	FC KK with varchar
+	FC KTP with varchar
+	Kartu BPJS with varchar
+END IF
+	PRINT Nomer Kamar
+FINISH
+
